@@ -4,8 +4,9 @@ from datetime import datetime
 import os 
 import sys
 
+#TODO: Running time in milisec instead of sec for better metrics 
 def benchmark():
-    argc = len(sys.argv)-1
+    argc = len(sys.argv)-1    
     if argc == 1:
         cmd = sys.argv[1]
     else:
