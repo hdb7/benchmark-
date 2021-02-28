@@ -1,3 +1,7 @@
+/*
+ * This file is a part of benchmark for testing the benchmark.py
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #define SIZE 100

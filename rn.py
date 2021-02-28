@@ -1,3 +1,6 @@
+"""
+This file is a part of benchmark for testing the benchmark.py
+"""
 # for generating random numbers
 #!/usr/bin/env python3
 

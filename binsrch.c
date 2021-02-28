@@ -1,3 +1,7 @@
+/*
+ * This file is a part of benchmark for testing the benchmark.py
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #define SIZE 100
@@ -12,6 +16,7 @@ int binsrch(int *a, int l, int h, int k)
 int main()
 {
     FILE *fp;
+    /* sorted numbers from data2.txt*/
     fp = fopen("data2.txt", "r");
     int arr[SIZE],i;
     int low=0;
