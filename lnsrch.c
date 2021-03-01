@@ -4,7 +4,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-#define SIZE 100
+#define SIZE 10000
 
 int lnsrch(int *a, int l, int k)
 {

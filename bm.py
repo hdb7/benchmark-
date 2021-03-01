@@ -28,7 +28,7 @@ def benchmark():
     # calculate the running time of algo in milliseconds
     rt = float((t2_in_sec - t1_in_sec) * 1000) 
     return rt
-#"""
+
 result = benchmark()
 
 reset_color = "\u001b[0m"
@@ -37,7 +37,6 @@ colored_text2 = Fore.GREEN + str(result) + " milliseconds\n" + reset_color
 colored_result = colored_text1 + colored_text2
 os.system("clear")
 print(colored_result)
-#"""
 
 #Notes : If u want to apply 'calculate_average_value()' then just
 #uncomment it & comment the above code by removing '#'
